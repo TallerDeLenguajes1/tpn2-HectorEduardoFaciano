@@ -3,17 +3,19 @@
 #define N 4
 #define M 5
 
-int f,c;
 double mt[N][M];
 
 int main(){
-    for(f = 0; f<N; f++)
+
+    for(int f = 0; f<N; f++)
     {
-        for(f = 0; f<M; f++)
+        for(int c = 0; c<M; c++)
         { 
+            printf("[%d][%d] ", f,c);
             _cprintf("%lf ", mt[f][c]);
+            printf("\n");
         }
-        _cprintf("\n");
+        printf("\n\n");
     }
     getch();
     return 0;
