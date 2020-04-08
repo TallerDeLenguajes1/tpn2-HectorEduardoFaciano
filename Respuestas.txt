@@ -1,0 +1,3 @@
+f) - ¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+
+No puedo ver el archivo tp2_1_2.cpp. Porque el archivo fué creado en la rama Opcion_2
